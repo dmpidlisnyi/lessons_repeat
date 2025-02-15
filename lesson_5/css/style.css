@@ -1,0 +1,226 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+/* Local fonts */
+@import url("fonts.css");
+
+/* Reset */
+@import url("reset.css");
+
+
+body {
+   font-family: "ProximaNova", sans-serif;
+}
+
+/* ========== Header ========== */
+.header-top {
+}
+.header-body {
+}
+.header-bottom {
+}
+
+/* ---------- Top Header ---------- */
+.top-header {
+   color: #535353;
+   line-height: 1.875; /* 30/16 */
+   padding: 15px 0;
+   background-color: #F8F8F8;
+}
+.top-header-container {
+   font-size: 0;
+}
+.top-header-menu {
+}
+.menu {
+   display: inline-block;
+   font-size: 16px;
+   width: 50%;
+}
+.menu-list {
+}
+.menu-item {
+   display: inline-block;
+   margin-right: 30px;
+}
+.menu-link {
+}
+.top-header-actions {
+}
+.actions-top-header {
+   display: inline-block;
+   font-size: 16px;
+   width: 50%;
+   text-align: right;
+   vertical-align: top;
+}
+.actions-top-header-label {
+   display: inline-block;
+   margin-right: 20px;
+}
+.actions-top-header-social {
+   display: inline-block;
+}
+.social-header {
+}
+.social-header-link {
+   margin-right: 10px;
+}
+.social-header-link img {
+   max-width: 30px;
+}
+
+/* ---------- Body Header ---------- */
+.body-header {
+   padding: 25px 0;
+}
+.body-header-container {
+}
+.body-header-logo {
+   max-width: 250px;
+}
+.body-header-logo img {
+   width: 100%;
+}
+
+/* ========== Page ========== */
+[class*="-container"] {
+   max-width: 1320px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+/* ========== Krovato ========== */
+.krovato {
+   line-height: 1.875; /* 30/16 */
+   color: #2B2929;
+   background-color: #F8F8F8;
+}
+
+/* ---------- About ---------- */
+.about {
+   padding: 40px 0;
+}
+.about-features {
+}
+.about-features-container {
+}
+.about-features-title {
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+   margin-bottom: 40px;
+   text-align: center;
+}
+.about-features-items {
+   font-size: 0;
+   margin: 0 -15px;
+   overflow: hidden;
+}
+.about-features-item {
+}
+.about-features-item > * {
+   margin-bottom: 20px;
+}
+.item-features {
+   display: inline-block;
+   width: 25%;
+   vertical-align: top;
+   font-size: 16px;
+   padding: 0 15px;
+   text-align: center;
+}
+.item-features img {
+   max-width: 100%;
+}
+.item-features-title {
+   font-weight: 600;
+   font-size: 26px;
+   line-height: 1.307692; /* 34/26 */
+}
+
+/* ---------- Article ---------- */
+.article {
+   max-width: 1100px;
+   padding: 40px 15px;
+   margin: 0 auto;
+}
+.article-title {
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+   margin-bottom: 40px;
+}
+.article-content {
+}
+.article-content img {
+   max-width: 100%;
+}
+.article-content p {
+   margin-bottom: 20px;
+}
+.article-content ul li {
+   padding-left: 47px;
+   margin-bottom: 20px;
+}
+.article-section > * {
+   margin-bottom: 40px;
+}
+.article-section {
+   margin-bottom: 40px;
+}
+.article-sub-title {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.4; /* 28/20 */
+   margin-bottom: 30px;
+}
+
+/* ---------- Follow ---------- */
+.follow {
+   text-align: center;
+   background-color: rgba(30, 40, 50, 0.05);
+   padding: 70px 0;
+}
+.follow-container {
+   max-width: 1350px;
+}
+.follow-title {
+   font-family: "Roboto", sans-serif;
+   font-size: 50px;
+   text-transform: capitalize;
+   color: #000;
+   line-height: normal;
+   margin-bottom: 60px;
+}
+.follow__wrap-list {
+   overflow: hidden;
+}
+.follow__list {
+}
+.list-follow {
+   font-size: 0;
+   margin: 0 -12px;
+   overflow-x: auto;
+   white-space: nowrap;
+}
+.list-follow-item {
+   display: inline-block;
+   padding: 0 12px;
+}
+.list-follow-link {
+}
+.list-follow-link img {
+   max-width: 200px;
+}
+
+/* ========== Footer ========== */
+.footer {
+   background-color: #2B2929;
+}
+.footer-copy {
+   color: #B1B1B1;
+   font-size: 15px;
+   line-height: 1.466667; /* 22/15 */
+   text-align: center;
+   padding: 20px 0;
+}
