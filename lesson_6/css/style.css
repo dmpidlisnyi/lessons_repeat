@@ -1,0 +1,231 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+/* Local fonts */
+@import url("fonts.css");
+
+/* Reset */
+@import url("reset.css");
+
+body {
+   font-family: "ProximaNova", sans-serif;
+}
+
+[class*="-container"] {
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+/* ========== Header ========== */
+.header {
+   font-weight: 600;
+   line-height: 1.263158; /* 24/19 */
+   color: #535353;
+   padding: 20px 0;
+}
+.header-container {
+   max-width: 1320px;
+   font-size: 0;
+}
+.header-logo {
+}
+.header-logo,
+.header-menu {
+   display: inline-block;
+   width: 50%;
+   font-size: 19px;
+   vertical-align: middle;
+}
+.logo {
+}
+.logo-title {
+   font-size: 24px;
+   text-decoration: underline;
+}
+.header-menu {
+}
+.menu {
+   text-align: right;
+}
+.menu-list {
+}
+.menu-item {
+   display: inline-block;
+   margin-right: 30px;
+}
+.menu-link {
+}
+
+/* ========== Coral ========== */
+.coral {
+   font-family: "Roboto", sans-serif;
+}
+.coral-hero {
+}
+
+/* ---------- Hero ---------- */
+.hero {
+   background: url("../img/coral/hero-decor_left.svg") left 85.17% / 120px no-repeat,
+   url("../img/coral/hero-decor_right.svg") right 70.25% / 215px no-repeat
+   rgba(30, 40, 50, 0.05);
+   padding: 60px 0;
+}
+.hero-container {
+   max-width: 1350px;
+   font-size: 0;
+}
+.hero-content {
+   max-width: 682px;
+   display: inline-block;
+   padding-top: 54px;
+   margin-right: 8.787879%; /* 116/1320 */
+}
+.hero-title {
+   font-weight: 300;
+   font-size: 74px;
+   margin-bottom: 40px;
+}
+.hero-text {
+   font-size: 30px;
+   line-height: 1.98;
+   text-transform: capitalize;
+   margin-bottom: 66px;
+}
+.hero-button {
+   padding: 19px 26px 19px 64px;
+   background: url("../img/coral/bug.svg") 29px / 24px no-repeat #1E2832;
+   color: #fff;
+   font-size: 29px;
+   line-height: 1.172414; /* 34/29 */
+   text-transform: capitalize;
+}
+.hero-image {
+   font-size: 16px;
+   display: inline-block;
+   vertical-align: top;
+}
+.hero-wrap-image {
+   max-width: 424px;
+   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+   border-radius: 160px 0;
+}
+.hero-image img {
+   width: 100%;
+   border-radius: inherit;
+   margin: -20px 18px 20px -18px;
+}
+
+/* ========== Eduplay ========== */
+.eduplay {
+   font-family: "Quicksand", sans-serif;
+}
+.eduplay-explore {
+}
+
+/* ---------- Explore ---------- */
+.explore {
+   background: url("../img/eduplay/explore_gradient.png") center / cover,
+   url("../img/eduplay/explore_alphabet.svg") center / cover
+   #914cff;
+   color: #fff;
+}
+.explore-container {
+   max-width: 1310px;
+}
+.explore-content {
+   max-width: 600px;
+   display: inline-block;
+   margin-right: 133px;
+   vertical-align: middle;
+   padding: 40px 0;
+}
+.explore-title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+   margin-bottom: 24px;
+}
+.explore-text {
+   font-size: 20px;
+   line-height: 1.6; /* 32/20 */
+   margin-bottom: 24px;
+}
+.explore-button {
+   font-weight: 700;
+   line-height: 1.5625; /* 25/16 */
+   color: #0D1216;
+   padding: 11px 20px 11px 40px;
+   border-radius: 8px;
+   background: url("../img/eduplay/cap.png") 20px / 16px no-repeat #fff;
+}
+.explore-illustration {
+   display: inline-block;
+   vertical-align: middle;
+}
+.explore-wrap-image {
+   max-width: 527px;
+}
+.explore-wrap-image img {
+   width: 100%;
+}
+
+/* ========== Krovato ========== */
+.krovato {
+}
+.krovato-article {
+}
+
+/* ---------- Article ---------- */
+.article {
+   line-height: 1.875;
+   background-color: #F8F8F8;
+   color: #2B2929;
+   padding: 40px 0;
+}
+.article-container {
+   max-width: 1100px;
+}
+.article-title {
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 1.2;
+   margin-bottom: 40px;
+}
+.article-content {
+}
+.article-content img {
+   width: 100%;
+   border-radius: 8px;
+}
+.article-content p {
+   margin-bottom: 20px;
+}
+.article-content ul li {
+   padding-left: 47px;
+   margin-bottom: 20px;
+   background: url("../img/krovato/mark.svg") 0 0 / 32px no-repeat;
+}
+.article-section > * {
+   margin-bottom: 40px;
+}
+.article-section {
+   margin-bottom: 40px;
+}
+.article-sub-title {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.4;
+   margin-bottom: 30px;
+}
+
+/* ========== Footer ========== */
+.footer {
+   background-color: #2B2929;
+}
+.footer-copy {
+   color: #B1B1B1;
+   font-size: 15px;
+   line-height: 1.466667;
+   text-align: center;
+   padding: 20px 0;
+}
